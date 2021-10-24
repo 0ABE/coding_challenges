@@ -5,8 +5,7 @@
 // 3. print “FizzBuzz” if an integer is divisible by both 3 and 5.
 
 #include "FizzBuzz.h"
-#include <ctype.h>
-#include <stdlib.h>
+#include <cstring>
 
 int main(int argc, char *argv[]) {
 
@@ -21,7 +20,7 @@ int main(int argc, char *argv[]) {
         start = atoi(argv[i + 1]);
         i++;
       } else if (strcmp("-end", arg) == 0) {
-        end = atoi(argv[++i]);
+        end = atoi(argv[i + 1]);
         i++;
       }
     }

@@ -1,6 +1,10 @@
 ﻿# CMakeList.txt : CMake project for FizzBuzz, include source and define
 # project specific logic here.
 #
+# usage: cmake . -B out -G Ninja
+#        cmake --build out
+#
+
 cmake_minimum_required (VERSION 3.8)
 
 project ("FizzBuzz")
