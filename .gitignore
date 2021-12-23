@@ -1,5 +1,8 @@
 # Directories
 out/
+# Playground directories
+xcuserdata/
+playground.xcworkspace/
 
 # System files
 .DS_Store
